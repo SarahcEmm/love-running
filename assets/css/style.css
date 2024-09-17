@@ -18,6 +18,9 @@ body {
 }
 h1 {
     font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
 }
 
 .oswald-<uniquifier> {
@@ -31,8 +34,19 @@ h1 {
 
 /* Header */
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 /* Main content */
 main {
     background-color: lightblue;
